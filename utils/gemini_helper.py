@@ -1,13 +1,14 @@
 import google.generativeai as genai
 import streamlit as st
-from dotenv import load_dotenv
-import os
+# from dotenv import load_dotenv
+# import os
 
-load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
+# load_dotenv()
+# api_key = os.getenv("GEMINI_API_KEY")
 
 # Initialize Gemini AI
-# genai.configure(api_key="GEMINI_API_KEY")
+api_key = st.secrets["GEMINI_API_KEY"]
+genai.configure(api_key=api_key)
 
 def get_laptop_recommendations(preferences):
     """
