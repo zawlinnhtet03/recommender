@@ -1,0 +1,91 @@
+/* Main title styling */
+.main-title {
+    color: #1E88E5;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.2rem;
+    margin-top: 0;
+    padding-bottom: 2rem;
+}
+
+/* Sidebar styling */
+.sidebar-title {
+    color: #1E88E5;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.sidebar-subtitle {
+    color: #666;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+/* Welcome box styling */
+.welcome-box {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+    border: 1px solid #e9ecef;
+}
+
+.welcome-box h2 {
+    color: #1E88E5;
+    margin-bottom: 1rem;
+}
+
+.welcome-box ol {
+    margin-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.welcome-box li {
+    padding: 0.5rem 0;
+    color: #666;
+}
+
+/* Section titles */
+.section-title {
+    color: #1E88E5;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+.tips-title {
+    color: #666;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Button styling */
+.stButton button {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #1E88E5;
+    color: white;
+}
+
+/* Progress bar styling */
+.stProgress > div > div > div {
+    background-color: #1E88E5;
+}
