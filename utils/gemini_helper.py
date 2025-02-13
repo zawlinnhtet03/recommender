@@ -3,12 +3,11 @@ import streamlit as st
 from dotenv import load_dotenv
 import os
 
-
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 
 # Initialize Gemini AI
-genai.configure(api_key="AIzaSyAyGbirjz_eHtpkmHY-6fGTFdb0bKbb-ck")
+# genai.configure(api_key="GEMINI_API_KEY")
 
 def get_laptop_recommendations(preferences):
     """
