@@ -122,6 +122,6 @@ else:
 # Footer
 st.markdown("""
 <div class='footer'>
-    <p>Powered by Gemini AI 🤖 | Made with ❤️ using Streamlit</p>
+    <p>Powered by Gemini AI 🤖</p>
 </div>
 """, unsafe_allow_html=True)
